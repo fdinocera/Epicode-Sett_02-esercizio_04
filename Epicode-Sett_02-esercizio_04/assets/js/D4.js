@@ -152,5 +152,6 @@ function giveMeRandom(num1) {
         let n = Math.floor(Math.random() * 11);
         array.push(n);
     }
+    return array;
 }
 console.log(giveMeRandom(5));
