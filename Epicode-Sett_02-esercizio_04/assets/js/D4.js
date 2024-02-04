@@ -80,7 +80,7 @@ function check3and7(num1) {
     if (num1 % 7 === 0) return 'il parametro è multiplo di 7';
     return 'il parametro non è multiplo di 3 e non è multiplo di 7';
 }
-console.log(check3and7(44));
+console.log(check3and7(-44));
 
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
@@ -142,10 +142,8 @@ console.log(cutString('Windows'));
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log("\nEsercizio 9");
+console.log("\nEsercizio 10");
 function giveMeRandom(num1) {
-
-    
 
     let array = [];
     for (let i = 0; i < num1; i++) {
@@ -154,4 +152,4 @@ function giveMeRandom(num1) {
     }
     return array;
 }
-console.log(giveMeRandom(5));
+console.log(giveMeRandom(30));
